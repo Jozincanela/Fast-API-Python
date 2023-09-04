@@ -7,7 +7,7 @@ cd env||
 
 .\Scripts\activate||
 
-python -m pip install -U fastapi uvicorn||
+pip install fastapi uvicorn Jinja2||
 
 uvicorn main:app --reload
 
